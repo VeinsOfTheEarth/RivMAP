@@ -1,0 +1,19 @@
+# MATLAB autosave and editor files
+*.asv
+*.autosave
+*.m~
+*.mlx.autosave
+
+# MATLAB generated folders/files
+slprj/
+codegen/
+resources/project/
+*.prj
+
+# Compiled or protected MATLAB artifacts
+*.mex*
+*.p
+
+# OS cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+title: "RivMAP"
+message: "Please cite the associated paper when using this repository."
+type: software
+authors:
+  - family-names: Schwenk
+    given-names: Jon
+  - family-names: Khandelwal
+    given-names: Ankush
+  - family-names: Fratkin
+    given-names: Mulu
+  - family-names: Kumar
+    given-names: Vipin
+  - family-names: Foufoula-Georgiou
+    given-names: Efi
+repository-code: "https://github.com/"
+keywords:
+  - MATLAB
+  - river morphodynamics
+  - planform analysis
+  - centerline
+  - bankline
+  - migration
+  - cutoff
+preferred-citation:
+  type: article
+  title: "High spatiotemporal resolution of river planform dynamics from Landsat: The RivMAP toolbox and results from the Ucayali River"
+  authors:
+    - family-names: Schwenk
+      given-names: Jon
+    - family-names: Khandelwal
+      given-names: Ankush
+    - family-names: Fratkin
+      given-names: Mulu
+    - family-names: Kumar
+      given-names: Vipin
+    - family-names: Foufoula-Georgiou
+      given-names: Efi
+  journal: "Earth and Space Science"
+  year: 2017
+  volume: 4
+  issue: 2
+  start: 46
+  end: 75
+  doi: "10.1002/2016EA000196"
