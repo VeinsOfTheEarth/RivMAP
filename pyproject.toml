@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "RivMAPy"
+version = "0.1.0"
+description = "River morphodynamics from analysis of binary channel planforms"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "BSD-2-Clause"
+authors = [
+  { name = "Jon Schwenk" },
+]
+keywords = [
+  "river morphodynamics",
+  "planform analysis",
+  "centerline",
+  "migration",
+  "geomorphology",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: GIS",
+]
+dependencies = [
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "scikit-image>=0.22",
+  "shapely>=2.0",
+]
+
+[project.optional-dependencies]
+geospatial = [
+  "affine>=2.4",
+  "rasterio>=1.4,<2",
+  "pyogrio>=0.11,<0.13",
+]
+examples = [
+  "matplotlib>=3.8",
+]
+test = [
+  "affine>=2.4",
+  "matplotlib>=3.8",
+  "pytest>=8",
+  "pytest-cov>=5",
+]
+dev = [
+  "matplotlib>=3.8",
+  "affine>=2.4",
+  "rasterio>=1.4,<2",
+  "pyogrio>=0.11,<0.13",
+  "pytest>=8",
+  "pytest-cov>=5",
+]
+
+[project.urls]
+Homepage = "https://github.com/VeinsOfTheEarth/RivMAP"
+Publication = "https://doi.org/10.1002/2016EA000196"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["rivmapy*"]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]

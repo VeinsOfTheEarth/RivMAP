@@ -14,6 +14,20 @@ resources/project/
 *.mex*
 *.p
 
+# Python environments, build products, and test caches
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Generated example outputs
+examples/output/
+
 # OS cruft
 .DS_Store
 Thumbs.db

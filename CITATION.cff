@@ -1,7 +1,9 @@
 cff-version: 1.2.0
-title: "RivMAP"
-message: "Please cite the associated paper when using this repository."
+title: "RivMAPy"
+message: "Please cite RivMAPy and the associated RivMAP paper when using this repository."
 type: software
+version: 0.1.0
+date-released: 2026-08-31
 authors:
   - family-names: Schwenk
     given-names: Jon
@@ -13,8 +15,9 @@ authors:
     given-names: Vipin
   - family-names: Foufoula-Georgiou
     given-names: Efi
-repository-code: "https://github.com/"
+repository-code: "https://github.com/VeinsOfTheEarth/RivMAP"
 keywords:
+  - Python
   - MATLAB
   - river morphodynamics
   - planform analysis
